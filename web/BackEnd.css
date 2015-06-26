@@ -1,0 +1,193 @@
+/* 
+    Document   : BackEnd
+    Created on : 2/Mai/2013, 22:21:55
+    Author     : root
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+/*campos do corpo da pagina*/
+body {
+    background-image: url(/GASSv12/a.png);
+    font-family: Critter, fantasy;
+    background-color: lightcyan;
+    font-size: large;
+    font-style: italic;
+}
+
+/*titulo*/
+h1{
+    color: maroon;    
+    padding: 4px 6px;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.anime{
+     position: relative;
+    animation-name:mymove;
+    animation-duration:5s;
+    -webkit-animation-name:mymove;
+    -webkit-animation-duration:5s;
+
+}
+
+.command{
+    color: maroon;
+}
+
+@keyframes mymove{
+from {right:0px; right: 300px;}
+to {right:200px; right: 0px;}
+}
+
+@-webkit-keyframes mymove 
+{
+from {right:0px; right: 300px;}
+to {right:200px; right: 0px;}
+}
+
+
+table {
+    font-size: small;
+    border: 2px solid grey;
+    text-align: left;
+    
+    color: black;
+}
+
+.tabelaEsc{
+    border: 0px;
+    width: 0px;
+    
+}
+
+/*panel grid*/
+.panel{
+    background: mediumaquamarine;   
+    border: 2px solid grey;
+    padding: 5px 5px;
+    font-size: large;
+    width: 200px;
+    column-width: 200px;
+    
+}
+
+.colorOutput{
+    color: maroon;
+    font-size: medium;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+
+/*datatable primeira linha*/
+form.jsfcrud_list_form th, td th {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #b2d5d6;
+    border-bottom-color: #b2d5d6;
+    border-left-color: #90b4bd;
+    border-right-color: #90b4bd;
+    letter-spacing: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+    font-size: medium;
+    color: black;
+    background: mediumaquamarine;
+    border: 2px solid grey;
+    width: 200px;
+}
+
+
+/*botoes*/
+.input
+{
+/*margin-left: 2.5em;*/
+ padding: 5px 8px;
+ color: black;
+ border: 3px solid grey;
+ background-color: burlywood;
+
+}
+
+/*selectOneMenu*/
+.select
+{
+/*margin-left: 2.5em;*/
+ background: white;
+ padding: 5px 8px;
+ color: black;
+ border: 3px solid grey;
+
+} 
+
+/*campos do body*/
+td{
+    vertical-align: super;
+    padding-bottom: 8px;
+    font-size: large;
+    text-align: left;
+    border: 0px solid grey;
+    padding: 5px 8px;
+    width: 200px;
+    color: black;
+}
+
+/*datatable segunda linha*/
+form.jsfcrud_list_form td, td td{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #b2d5d6;
+    border-bottom-color: #b2d5d6;
+    border-left-color: #b2d5d6;
+    border-right-color: #b2d5d6;
+    vertical-align: baseline;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: medium;
+    color: black;
+    background: khaki;
+    border: 1px solid grey;
+    width: 300px;
+}
+
+tr.jsfcrud_odd_row {
+    background-color: #eff5fa;
+    color: #4e6a71;
+}
+
+
+tr.jsfcrud_even_row {
+    background-color: #eff5fa;
+    color: #4e6a71;
+}
+
+
+#busyImage {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

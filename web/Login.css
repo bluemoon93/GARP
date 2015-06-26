@@ -1,0 +1,155 @@
+/* 
+    Document   : Login
+    Created on : 4/Mai/2013, 11:49:58
+    Author     : root
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+
+/*campos do corpo da pagina*/
+body {
+    font-family: Critter, fantasy;
+    background-color: lightgoldenrodyellow;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+/*titulo*/
+h1{
+    color: midnightblue;    
+    text-align: center;
+    padding: 4px 6px;
+
+
+}
+
+
+table {
+    font-size: small;
+    border: 2px solid grey;
+    text-align: left;
+    color: black;
+}
+
+/*panel grid*/
+.panel{
+    background: goldenrod;
+    border: 2px solid grey;
+    padding: 5px 8px;
+    font-size: large;
+}
+
+
+/*datatable primeira linha*/
+form.jsfcrud_list_form th, td th {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #b2d5d6;
+    border-bottom-color: #b2d5d6;
+    border-left-color: #90b4bd;
+    border-right-color: #90b4bd;
+    letter-spacing: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+    font-size: larger;
+    color: black;
+    background: goldenrod;
+    border: 2px solid grey;
+    width: 200px;
+}
+
+
+/*botoes*/
+.input
+{
+/*margin-left: 2.5em;*/
+ background:gold;
+ padding: 5px 8px;
+ color: black;
+ border: 3px solid grey;
+
+}
+
+/*selectOneMenu*/
+.select
+{
+/*margin-left: 2.5em;*/
+ background: white;
+ padding: 5px 8px;
+ color: black;
+ border: 3px solid grey;
+
+} 
+
+/*campos do body*/
+td{
+    vertical-align: super;
+    padding-bottom: 8px;
+    font-size: large;
+    text-align: left;
+    background: goldenrod;
+    border: 2px solid grey;
+    padding: 5px 8px;
+    width: 200px;
+    color: black;
+}
+
+/*datatable segunda linha*/
+form.jsfcrud_list_form td, td td{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #b2d5d6;
+    border-bottom-color: #b2d5d6;
+    border-left-color: #b2d5d6;
+    border-right-color: #b2d5d6;
+    vertical-align: baseline;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: larger;
+    color: black;
+    background: gold;
+    border: 1px solid grey;
+    width: 250px;
+}
+
+tr.jsfcrud_odd_row {
+    background-color: #eff5fa;
+    color: #4e6a71;
+}
+
+
+tr.jsfcrud_even_row {
+    background-color: #eff5fa;
+    color: #4e6a71;
+}
+
+#busyImage {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
